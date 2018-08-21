@@ -14,7 +14,7 @@
   
   
   
-  <meta name="description" content="BSc in Computational Visualistics">
+  <meta name="description" content="MSc student in Computational Visualistics">
 
   
   <link rel="alternate" hreflang="en-us" href="https://f-schroeder.github.io/">
@@ -78,7 +78,7 @@
   <meta property="og:site_name" content="Felix Schröder">
   <meta property="og:url" content="https://f-schroeder.github.io/">
   <meta property="og:title" content="Felix Schröder">
-  <meta property="og:description" content="BSc in Computational Visualistics">
+  <meta property="og:description" content="MSc student in Computational Visualistics">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2018-08-15T00:00:00&#43;02:00">
@@ -271,7 +271,7 @@
 
       <div class="portrait-title">
         <h2 itemprop="name">Felix Schröder</h2>
-        <h3 itemprop="jobTitle">BSc in Computational Visualistics</h3>
+        <h3 itemprop="jobTitle">MSc student in Computational Visualistics</h3>
 
         
         
@@ -334,7 +334,7 @@
 
 <h1 id="biography">Biography</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
+<p>Hi! I&rsquo;m Felix. Currently I am studying Computational Visualistics at the University of Koblenz (Germany). The main topics of my work is computer graphics. I&rsquo;m a proficient OpenGL and C++ user and developing new photorealistic real-time rendering techniques for rasterization and ray-tracing. I&rsquo;m very familiar with modern OpenGL/GLSL (including AZDO and DSA), C++17, GPGPU and Vulkan as well as computer vision. Just take a look at my personal projects to get an impression!</p>
 
 
     <div class="row">
@@ -390,7 +390,7 @@
   
   
   
-  <section id="publications_selected" class="home-section">
+  <section id="projects" class="home-section">
     <div class="container">
       
 
@@ -398,17 +398,70 @@
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Selected Publications</h1>
+    <h1>Projects</h1>
     
   </div>
   <div class="col-xs-12 col-md-8">
+    <p><h2 id="orvis">ORVIS</h2>
+
+<h4 id="modern-opengl-4-6-and-c-17-rendering-framework">Modern OpenGL 4.6 and C++17 rendering framework</h4>
+
+<p><a href="https://github.com/f-schroeder/orvis" target="_blank">https://github.com/f-schroeder/orvis</a></p>
+
+<hr />
+
+<h2 id="volumetric-lighting">Volumetric Lighting</h2>
+
+<h4 id="froxel-based-real-time-volumetric-fog">Froxel-based real-time volumetric fog</h4>
+
+<p><a href="https://github.com/Max1412/Graphics2" target="_blank">https://github.com/Max1412/Graphics2</a></p>
+
+<hr />
+
+<h2 id="dino">DINO</h2>
+
+<h4 id="ray-tracing-framework-for-distance-fields-and-implicit-surfaces">Ray-Tracing framework for distance fields and implicit surfaces</h4>
+
+<p><a href="https://gitlab.uni-koblenz.de/CVFP_DF18/Framework" target="_blank">https://gitlab.uni-koblenz.de/CVFP_DF18/Framework</a></p>
+
+<hr />
+
+<h2 id="onehit">OneHit</h2>
+
+<h4 id="3d-multiplayer-battle-arena-game-unreal-engine-4-10">3D multiplayer battle arena game (Unreal Engine 4.10)</h4>
+
+<p>In this multiplayer game players fight against each other in fast and action-packed battles.
+Each one has to choose one of the four characters and use a variety of attack and defense skills to defeat the opponents.
+The clou: just a single hit kills, so one has to be careful.</p>
+
+<p>This game received the <strong>third price of the CV-Award 2016</strong> at the University of Koblenz.</p>
+
+<p>OneHit was released on <a href="http://store.steampowered.com/app/697270/OneHit/" target="_blank">Steam</a> on 10/31/2017.</p>
+
+<hr />
+
+<h2 id="cvark">CVARK</h2>
+
+<h4 id="ar-framework">AR-Framework</h4>
+
+<p>In this internship I developed the augmented reality framework &ldquo;CVARK&rdquo; at the University of Koblenz together with 13 other students.
+We used NVIDIA PhysX, OpenCV and OpenGL as well as C++ and GLSL to implement a funny AR-Game.
+Take a look at the <a href="https://www.facebook.com/followcvark/videos/593819184114932/" target="_blank">demo-video</a> to get a better impression.</p>
+</p>
+
+    
     
 
     
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
       
-    
 
-    
+    </div>
+
     
 
   </div>
@@ -430,12 +483,31 @@
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent Publications</h1>
+    <h1>Publications</h1>
     
     
   </div>
   <div class="col-xs-12 col-md-8">
-    
+    <p><h2 id="global-illumination-using-gpu-path-tracing-and-the-line-space-datastructure-h2">Global Illumination using GPU Path Tracing and the Line Space datastructure</h2></h2>
+
+<h4 id="bachelor-thesis">Bachelor Thesis</h4>
+
+<p>This thesis presents a novel technique in computer graphics to simulate realtime global illumination using path tracing. Path tracing is done with compute shaders on the graphics card (GPU) to perform rendering in a highly parallelized manner. To improve the overall performance of tracing rays, the Line Space is used as an acceleration data structure in different variations, resulting in better empty space skipping. The Line Space saves scene information based on a previous voxelization in direction-dependent shafts and is generated and traversed on the GPU. With this procedure, indirect lighting and soft shadows can be computed in a physically correct way. Furthermore, using the Line Space, path tracing can be performed mostly independent of the complexity of the scene geometry with over 100 frames per second, which is truly real-time and much faster than using a comparable voxel grid. The image quality is not affected negatively by this technique and the shadow quality is in most cases much better compared to shadow-mapping.</p>
+
+<p>Click the following link to download the full document (in german language): <a href="https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1438" target="_blank">https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1438</a></p>
+
+<p>This work received the <strong>first price of the CV-Award 2017</strong> at the University of Koblenz.</p>
+
+<hr />
+
+<h2 id="comparison-of-rendering-pipelines">Comparison of Rendering Pipelines</h2>
+
+<h4 id="seminar-work">Seminar Work</h4>
+
+<p>This seminar work presents a brief comparison of the rendering pipelines in the Unity Engine 5, the Unreal Engine 4 and a basic OpenGL renderer. The pipelines are compared with the example of deferred shading and also other concepts like ray tracing are briefly addressed.</p>
+
+<p>The full PDF document can be found <a href="https://wp.uni-koblenz.de/fschroeder/wp-content/uploads/sites/29/2017/07/SW_Pipelines.pdf" target="_blank">here</a> (in german language).</p>
+</p>
 
     
       
@@ -446,33 +518,6 @@
     
     
 
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="talks" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent &amp; Upcoming Talks</h1>
-    
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
   </div>
 </div>
 
@@ -493,7 +538,7 @@
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
 
-    <h1>Recent Posts</h1>
+    <h1>Recent Posts / News</h1>
     
     
 
@@ -507,45 +552,6 @@
 
       
       
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="projects" class="home-section">
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Projects</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-    
-
-    
-
-    
-
-    <div class="row isotope projects-container js-layout-masonry">
-
-      
-
-    </div>
-
     
 
   </div>
