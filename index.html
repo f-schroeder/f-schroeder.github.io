@@ -165,7 +165,7 @@
         
 
         <li class="nav-item">
-          <a href="/#publications_selected" data-target="#publications_selected">
+          <a href="/#publications" data-target="#publications">
             
             <span>Publications</span>
             
@@ -406,7 +406,16 @@
 
 <h4 id="modern-opengl-4-6-and-c-17-rendering-framework">Modern OpenGL 4.6 and C++17 rendering framework</h4>
 
-<p><a href="https://github.com/f-schroeder/orvis" target="_blank">https://github.com/f-schroeder/orvis</a></p>
+<p><details>
+<p></p>
+
+<p>This is my most recent framework for personal projects and quick and easy development of OpenGL based applications.
+It uses modern C++17, OpenGL 4.6 and a GPU-driven rendering pipeline including <a href="https://www.slideshare.net/CassEveritt/approaching-zero-driver-overhead" target="_blank">AZDO</a>, <a href="https://www.khronos.org/opengl/wiki/Direct_State_Access" target="_blank">DSA</a>, <a href="https://www.khronos.org/opengl/wiki/Bindless_Texture" target="_blank">bindless textures</a> and <a href="https://www.khronos.org/opengl/wiki/Vertex_Rendering#Indirect_rendering" target="_blank">indirect multi-draw</a> calls. It also automatically performs GPU-view-frustum-culling and contains a fast model-loader and PBR-shading.</p>
+
+<p>You can take a look at the code here: <a href="https://github.com/f-schroeder/orvis" target="_blank">https://github.com/f-schroeder/orvis</a></p>
+
+<p></p>
+</details></p>
 
 <hr />
 
@@ -414,7 +423,18 @@
 
 <h4 id="froxel-based-real-time-volumetric-fog">Froxel-based real-time volumetric fog</h4>
 
-<p><a href="https://github.com/Max1412/Graphics2" target="_blank">https://github.com/Max1412/Graphics2</a></p>
+<p><img src="img/volumetric.jpg" alt="" /></p>
+
+<p><details>
+<p></p>
+
+<p>We implemented the frustum-aligned voxel-grid based volumetric lighting algorithm presented by Bartlomiej Wronski in <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=30ZOCgAAQBAJ&amp;oi=fnd&amp;pg=PA217&amp;dq=gpu+pro+6+volumetric+wronski&amp;ots=2ZfubWDDFI&amp;sig=P611iciYxczkBTD5LDngvBYPN10" target="_blank">&ldquo;Volumetric Fog and Lighting&rdquo;</a> (GPU Pro 6).
+We used OpenGL 4.6 and C++17 and our team consisted of Maximilian Mader (<a href="https://twitter.com/maxesstuff" target="_blank">@maxesstuff</a>) and Darius Thies.</p>
+
+<p>The code can be found here: <a href="https://github.com/Max1412/Graphics2" target="_blank">https://github.com/Max1412/Graphics2</a></p>
+
+<p></p>
+</details></p>
 
 <hr />
 
@@ -422,13 +442,30 @@
 
 <h4 id="ray-tracing-framework-for-distance-fields-and-implicit-surfaces">Ray-Tracing framework for distance fields and implicit surfaces</h4>
 
+<p><img src="img/distancefield.jpg" alt="" /></p>
+
+<p><details>
+<p></p>
+
+<p>DINO was developed by me and 12 other students in an internship at the University of Koblenz.
+It renders distance fields and implicit surfaces in real-time and is also able to discretize triangle meshes to SDFs.
+Rendering is done using OpenGL and the framework is implemented in C++17.</p>
+
 <p><a href="https://gitlab.uni-koblenz.de/CVFP_DF18/Framework" target="_blank">https://gitlab.uni-koblenz.de/CVFP_DF18/Framework</a></p>
+
+<p></p>
+</details></p>
 
 <hr />
 
 <h2 id="onehit">OneHit</h2>
 
 <h4 id="3d-multiplayer-battle-arena-game-unreal-engine-4-10">3D multiplayer battle arena game (Unreal Engine 4.10)</h4>
+
+<p><img src="img/onehit.jpg" alt="" /></p>
+
+<p><details>
+<p></p>
 
 <p>In this multiplayer game players fight against each other in fast and action-packed battles.
 Each one has to choose one of the four characters and use a variety of attack and defense skills to defeat the opponents.
@@ -438,15 +475,26 @@ The clou: just a single hit kills, so one has to be careful.</p>
 
 <p>OneHit was released on <a href="http://store.steampowered.com/app/697270/OneHit/" target="_blank">Steam</a> on 10/31/2017.</p>
 
+<p></p>
+</details></p>
+
 <hr />
 
 <h2 id="cvark">CVARK</h2>
 
 <h4 id="ar-framework">AR-Framework</h4>
 
+<p><img src="img/cvark.jpg" alt="" /></p>
+
+<p><details>
+<p></p>
+
 <p>In this internship I developed the augmented reality framework &ldquo;CVARK&rdquo; at the University of Koblenz together with 13 other students.
 We used NVIDIA PhysX, OpenCV and OpenGL as well as C++ and GLSL to implement a funny AR-Game.
 Take a look at the <a href="https://www.facebook.com/followcvark/videos/593819184114932/" target="_blank">demo-video</a> to get a better impression.</p>
+
+<p></p>
+</details></p>
 </p>
 
     
@@ -492,11 +540,19 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
 
 <h4 id="bachelor-thesis">Bachelor Thesis</h4>
 
+<p><img src="img/ba_thesis.jpg" alt="" /></p>
+
+<p><details>
+<p></p>
+
 <p>This thesis presents a novel technique in computer graphics to simulate realtime global illumination using path tracing. Path tracing is done with compute shaders on the graphics card (GPU) to perform rendering in a highly parallelized manner. To improve the overall performance of tracing rays, the Line Space is used as an acceleration data structure in different variations, resulting in better empty space skipping. The Line Space saves scene information based on a previous voxelization in direction-dependent shafts and is generated and traversed on the GPU. With this procedure, indirect lighting and soft shadows can be computed in a physically correct way. Furthermore, using the Line Space, path tracing can be performed mostly independent of the complexity of the scene geometry with over 100 frames per second, which is truly real-time and much faster than using a comparable voxel grid. The image quality is not affected negatively by this technique and the shadow quality is in most cases much better compared to shadow-mapping.</p>
 
 <p>Click the following link to download the full document (in german language): <a href="https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1438" target="_blank">https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1438</a></p>
 
 <p>This work received the <strong>first price of the CV-Award 2017</strong> at the University of Koblenz.</p>
+
+<p></p>
+</details></p>
 
 <hr />
 
@@ -504,9 +560,17 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
 
 <h4 id="seminar-work">Seminar Work</h4>
 
+<p><img src="img/pipelines.png" alt="" /></p>
+
+<p><details>
+<p></p>
+
 <p>This seminar work presents a brief comparison of the rendering pipelines in the Unity Engine 5, the Unreal Engine 4 and a basic OpenGL renderer. The pipelines are compared with the example of deferred shading and also other concepts like ray tracing are briefly addressed.</p>
 
 <p>The full PDF document can be found <a href="https://wp.uni-koblenz.de/fschroeder/wp-content/uploads/sites/29/2017/07/SW_Pipelines.pdf" target="_blank">here</a> (in german language).</p>
+
+<p></p>
+</details></p>
 </p>
 
     
@@ -545,7 +609,7 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
   </div>
   <div class="col-xs-12 col-md-8">
 
-    
+    <p>Coming soon™&hellip;</p>
 
     
       
@@ -576,37 +640,10 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p>This is an example of using the <em>custom</em> widget to create your own homepage section.</p>
-
-<p>To remove this section, either delete <code>content/home/teaching.md</code> or edit the frontmatter of the file to deactivate the widget by setting <code>active = false</code>.</p>
+    <p>Coming soon™&hellip;</p>
 
   </div>
   
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="tags" class="home-section">
-    <div class="container">
-      
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Tags</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-
-  </div>
 </div>
 
     </div>
