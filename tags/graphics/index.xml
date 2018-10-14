@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics on Felix Schröder</title>
+    <link>https://f-schroeder.github.io/tags/graphics/</link>
+    <description>Recent content in Graphics on Felix Schröder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 30 Jan 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://f-schroeder.github.io/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ORVIS</title>
+      <link>https://f-schroeder.github.io/project/orvis/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/project/orvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acceleration data structures for real-time ray-tracing</title>
+      <link>https://f-schroeder.github.io/project/linespace/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/project/linespace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Volumetric Lighting</title>
+      <link>https://f-schroeder.github.io/project/volumetric/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/project/volumetric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DINO</title>
+      <link>https://f-schroeder.github.io/project/dino/</link>
+      <pubDate>Sat, 27 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/project/dino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVARK</title>
+      <link>https://f-schroeder.github.io/project/cvark/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/project/cvark/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

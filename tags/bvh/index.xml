@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BVH on Felix Schröder</title>
+    <link>https://f-schroeder.github.io/tags/bvh/</link>
+    <description>Recent content in BVH on Felix Schröder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://f-schroeder.github.io/tags/bvh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acceleration data structures for real-time ray-tracing</title>
+      <link>https://f-schroeder.github.io/project/linespace/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/project/linespace/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -27,17 +27,6 @@
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>https://f-schroeder.github.io/home/projects/</guid>
-      <description>ORVIS Modern OpenGL 4.6 and C++17 rendering framework  
-This is my most recent framework for personal projects and quick and easy development of OpenGL based applications. It uses modern C++17, OpenGL 4.6 and a GPU-driven rendering pipeline including AZDO, DSA, bindless textures and indirect multi-draw calls. It also automatically performs GPU-view-frustum-culling and contains a fast model-loader, PBR-shading and various other real-time rendering techniques.
-You can take a look at the code here: https://github.</description>
-    </item>
-    
-    <item>
-      <title>Selected Publications</title>
-      <link>https://f-schroeder.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://f-schroeder.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
@@ -49,6 +38,15 @@ You can take a look at the code here: https://github.</description>
       <guid>https://f-schroeder.github.io/home/publications/</guid>
       <description>Global Illumination using GPU Path Tracing and the Line Space datastructure Bachelor Thesis  
 This thesis presents a novel technique in computer graphics to simulate realtime global illumination using path tracing. Path tracing is done with compute shaders on the graphics card (GPU) to perform rendering in a highly parallelized manner. To improve the overall performance of tracing rays, the Line Space is used as an acceleration data structure in different variations, resulting in better empty space skipping.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://f-schroeder.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://f-schroeder.github.io/home/publications_selected/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -165,7 +165,7 @@
         
 
         <li class="nav-item">
-          <a href="/#publications" data-target="#publications">
+          <a href="/#publications_selected" data-target="#publications_selected">
             
             <span>Publications</span>
             
@@ -402,119 +402,7 @@
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p><h2 id="orvis">ORVIS</h2>
-
-<h4 id="modern-opengl-4-6-and-c-17-rendering-framework">Modern OpenGL 4.6 and C++17 rendering framework</h4>
-
-<p><details>
-<p></p>
-
-<p>This is my most recent framework for personal projects and quick and easy development of OpenGL based applications.
-It uses modern C++17, OpenGL 4.6 and a GPU-driven rendering pipeline including <a href="https://www.slideshare.net/CassEveritt/approaching-zero-driver-overhead" target="_blank">AZDO</a>, <a href="https://www.khronos.org/opengl/wiki/Direct_State_Access" target="_blank">DSA</a>, <a href="https://www.khronos.org/opengl/wiki/Bindless_Texture" target="_blank">bindless textures</a> and <a href="https://www.khronos.org/opengl/wiki/Vertex_Rendering#Indirect_rendering" target="_blank">indirect multi-draw</a> calls. It also automatically performs GPU-view-frustum-culling and contains a fast model-loader, PBR-shading and various other real-time rendering techniques.</p>
-
-<p>You can take a look at the code here: <a href="https://github.com/f-schroeder/orvis" target="_blank">https://github.com/f-schroeder/orvis</a></p>
-
-<p></p>
-</details></p>
-
-<hr />
-
-<h2 id="volumetric-lighting">Volumetric Lighting</h2>
-
-<h4 id="froxel-based-real-time-volumetric-fog">Froxel-based real-time volumetric fog</h4>
-
-<p><img src="img/volumetric.jpg" alt="" /></p>
-
-<p><details>
-<p></p>
-
-<p>We implemented the frustum-aligned voxel-grid based volumetric lighting algorithm presented by Bartlomiej Wronski in <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=30ZOCgAAQBAJ&amp;oi=fnd&amp;pg=PA217&amp;dq=gpu+pro+6+volumetric+wronski&amp;ots=2ZfubWDDFI&amp;sig=P611iciYxczkBTD5LDngvBYPN10" target="_blank">&ldquo;Volumetric Fog and Lighting&rdquo;</a> (GPU Pro 6).
-We used OpenGL 4.6 and C++17 and our team consisted of Maximilian Mader (<a href="https://twitter.com/maxesstuff" target="_blank">@maxesstuff</a>), Darius Thies and me.</p>
-
-<p>The code can be found here: <a href="https://github.com/Max1412/Graphics2" target="_blank">https://github.com/Max1412/Graphics2</a></p>
-
-<p></p>
-</details></p>
-
-<hr />
-
-<h2 id="acceleration-data-structures-for-real-time-ray-tracing">Acceleration data structures for real-time ray-tracing</h2>
-
-<h4 id="line-space-bvh-and-octree">Line Space, BVH and Octree</h4>
-
-<p><img src="img/ls_shafts.png" alt="" /></p>
-
-<p><details>
-<p></p>
-
-<p>Together with Kevin Keul, Tilman Koß and Stefan Müller I worked on research and development of new GPU-based data structures to accelerate GPU-ray-tracing.
-This includes the development of the new Line Space data structure as well as research in bounding volume hierarchies, recursive grids and sparse voxel octrees (all of them on the GPU).</p>
-
-<p>Here is the code (although rather poorly documented): <a href="https://gitlab.uni-koblenz.de/fschroeder/CGF" target="_blank">https://gitlab.uni-koblenz.de/fschroeder/CGF</a></p>
-
-<p></p>
-</details></p>
-
-<hr />
-
-<h2 id="dino">DINO</h2>
-
-<h4 id="ray-tracing-framework-for-distance-fields-and-implicit-surfaces">Ray-Tracing framework for distance fields and implicit surfaces</h4>
-
-<p><img src="img/distancefield.jpg" alt="" /></p>
-
-<p><details>
-<p></p>
-
-<p>DINO was developed by me and 12 other students in an internship at the University of Koblenz.
-It renders distance fields and implicit surfaces in real-time and is also able to discretize triangle meshes to SDFs.
-Rendering is done using OpenGL and the framework is implemented in C++17.</p>
-
-<p><a href="https://gitlab.uni-koblenz.de/CVFP_DF18/Framework" target="_blank">https://gitlab.uni-koblenz.de/CVFP_DF18/Framework</a> (public access is coming soon™)</p>
-
-<p></p>
-</details></p>
-
-<hr />
-
-<h2 id="onehit">OneHit</h2>
-
-<h4 id="3d-multiplayer-battle-arena-game-unreal-engine-4-10">3D multiplayer battle arena game (Unreal Engine 4.10)</h4>
-
-<p><img src="img/onehit.jpg" alt="" /></p>
-
-<p><details>
-<p></p>
-
-<p>In this multiplayer game players fight against each other in fast and action-packed battles.
-Each one has to choose one of the four characters and use a variety of attack and defense skills to defeat the opponents.
-The clou: just a single hit kills, so one has to be careful.</p>
-
-<p>This game received the <strong>third price of the CV-Award 2016</strong> at the University of Koblenz.</p>
-
-<p>OneHit was released on <a href="http://store.steampowered.com/app/697270/OneHit/" target="_blank">Steam</a> on 10/31/2017.</p>
-
-<p></p>
-</details></p>
-
-<hr />
-
-<h2 id="cvark">CVARK</h2>
-
-<h4 id="ar-framework">AR-Framework</h4>
-
-<p><img src="img/cvark.jpg" alt="" /></p>
-
-<p><details>
-<p></p>
-
-<p>In this internship I developed the augmented reality framework &ldquo;CVARK&rdquo; at the University of Koblenz together with 13 other students.
-We used NVIDIA PhysX, OpenCV and OpenGL as well as C++ and GLSL to implement a funny AR-Game.
-Take a look at the <a href="https://www.facebook.com/followcvark/videos/593819184114932/" target="_blank">demo-video</a> to get a better impression.</p>
-
-<p></p>
-</details></p>
-</p>
+    
 
     
     
@@ -525,6 +413,139 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
 
     <div class="row isotope projects-container js-layout-masonry">
 
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item graphics opengl c&#43;&#43; research">
+        <div class="card">
+          
+          <div class="card-text">
+            <h4><a href="https://github.com/f-schroeder/orvis" target="_blank">ORVIS</a></h4>
+            <div class="card-desription">
+              <p><b>Modern OpenGL 4.6 and C++17 rendering framework</b> <br>This is my most recent framework for personal projects and quick and easy development of OpenGL based applications. <br>It uses modern C++17, OpenGL 4.6 and a GPU-driven rendering pipeline including <a href="https://www.slideshare.net/CassEveritt/approaching-zero-driver-overhead" target="_blank">AZDO</a>, <a href="https://www.khronos.org/opengl/wiki/Direct_State_Access" target="_blank">DSA</a>, <a href="https://www.khronos.org/opengl/wiki/Bindless_Texture" target="_blank">bindless textures</a> and <a href="https://www.khronos.org/opengl/wiki/Vertex_Rendering#Indirect_rendering" target="_blank">indirect multi-draw</a> calls. It also automatically performs GPU-view-frustum-culling and contains a fast model-loader, PBR-shading and various other real-time rendering techniques.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item graphics opengl c&#43;&#43; octree bvh line-space research">
+        <div class="card">
+          
+          <a href="https://gitlab.uni-koblenz.de/fschroeder/CGF" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/ls_shafts.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://gitlab.uni-koblenz.de/fschroeder/CGF" target="_blank">Acceleration data structures for real-time ray-tracing</a></h4>
+            <div class="card-desription">
+              <p><b>Line Space, BVH and Octree</b> <br>Together with Kevin Keul, Tilman Koß and Stefan Müller I worked on research and development of new GPU-based data structures to accelerate GPU-ray-tracing. This includes the development of the new Line Space data structure as well as research in bounding volume hierarchies, recursive grids and sparse voxel octrees (all of them on the GPU).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item graphics opengl c&#43;&#43; volumetric-lighting research">
+        <div class="card">
+          
+          <a href="https://github.com/Max1412/Graphics2" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/volumetric.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://github.com/Max1412/Graphics2" target="_blank">Volumetric Lighting</a></h4>
+            <div class="card-desription">
+              <p><b>Froxel-based real-time volumetric fog</b> <br>We implemented the frustum-aligned voxel-grid based volumetric lighting algorithm presented by Bartlomiej Wronski in <a href="https://books.google.com/books?hl=en&lr=&id=30ZOCgAAQBAJ&oi=fnd&pg=PA217&dq=gpu+pro+6+volumetric+wronski&ots=2ZfubWDDFI&sig=P611iciYxczkBTD5LDngvBYPN10">Volumetric Fog and Lighting</a> (GPU Pro 6). We used OpenGL 4.6 and C++17 and our team consisted of Maximilian Mader (<a href="https://twitter.com/maxesstuff">@maxesstuff</a>), Darius Thies and me.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item graphics opengl c&#43;&#43; research sdf">
+        <div class="card">
+          
+          <a href="https://wp.uni-koblenz.de/dino/" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/distancefield.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://wp.uni-koblenz.de/dino/" target="_blank">DINO</a></h4>
+            <div class="card-desription">
+              <p><b>Ray-Tracing framework for distance fields and implicit surfaces</b> <br>DINO was developed by me and 12 other students in an internship at the University of Koblenz. <br>It renders distance fields and implicit surfaces in real-time and is also able to discretize triangle meshes to SDFs. Rendering is done using OpenGL and the framework is implemented in C++17. Public access to the project is coming soon™.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item unreal-engine game steam">
+        <div class="card">
+          
+          <a href="http://store.steampowered.com/app/697270/OneHit/" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/onehit.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="http://store.steampowered.com/app/697270/OneHit/" target="_blank">OneHit</a></h4>
+            <div class="card-desription">
+              <p><b>3D multiplayer battle arena game (Unreal Engine 4.10)</b> <br>In this multiplayer game players fight against each other in fast and action-packed battles. Each one has to choose one of the four characters and use a variety of attack and defense skills to defeat the opponents. The clou: just a single hit kills, so one has to be careful. <br>This game received the <em>third price of the CV-Award 2016</em> at the University of Koblenz and was released on Steam on 10/31/2017.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item graphics opengl c&#43;&#43; physx ar research">
+        <div class="card">
+          
+          <a href="https://www.facebook.com/followcvark/videos/593819184114932/" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/cvark.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://www.facebook.com/followcvark/videos/593819184114932/" target="_blank">CVARK</a></h4>
+            <div class="card-desription">
+              <p><b>AR-Framework</b> <br>In this internship I developed the augmented reality framework &ldquo;CVARK&rdquo; at the University of Koblenz together with 13 other students. <br>We used NVIDIA PhysX, OpenCV and OpenGL as well as C++ and GLSL to implement a funny AR-Game.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       
 
     </div>
@@ -541,10 +562,9 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
   
   
   
-  <section id="publications" class="home-section">
+  <section id="publications_selected" class="home-section">
     <div class="container">
       
-
 
 
 
@@ -552,53 +572,150 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
   <div class="col-xs-12 col-md-4 section-heading">
     <h1>Publications</h1>
     
-    
   </div>
   <div class="col-xs-12 col-md-8">
-    <p><h2 id="global-illumination-using-gpu-path-tracing-and-the-line-space-datastructure-h2">Global Illumination using GPU Path Tracing and the Line Space datastructure</h2></h2>
-
-<h4 id="bachelor-thesis">Bachelor Thesis</h4>
-
-<p><img src="img/ba_thesis.jpg" alt="" /></p>
-
-<p><details>
-<p></p>
-
-<p>This thesis presents a novel technique in computer graphics to simulate realtime global illumination using path tracing. Path tracing is done with compute shaders on the graphics card (GPU) to perform rendering in a highly parallelized manner. To improve the overall performance of tracing rays, the Line Space is used as an acceleration data structure in different variations, resulting in better empty space skipping. The Line Space saves scene information based on a previous voxelization in direction-dependent shafts and is generated and traversed on the GPU. With this procedure, indirect lighting and soft shadows can be computed in a physically correct way. Furthermore, using the Line Space, path tracing can be performed mostly independent of the complexity of the scene geometry with over 100 frames per second, which is truly real-time and much faster than using a comparable voxel grid. The image quality is not affected negatively by this technique and the shadow quality is in most cases much better compared to shadow-mapping.</p>
-
-<p>Click the following link to download the full document (in german language): <a href="https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1438" target="_blank">https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1438</a></p>
-
-<p>This work received the <strong>first price of the CV-Award 2017</strong> at the University of Koblenz.</p>
-
-<p></p>
-</details></p>
-
-<hr />
-
-<h2 id="comparison-of-rendering-pipelines">Comparison of Rendering Pipelines</h2>
-
-<h4 id="seminar-work">Seminar Work</h4>
-
-<p><img src="img/pipelines.png" alt="" /></p>
-
-<p><details>
-<p></p>
-
-<p>This seminar work presents a brief comparison of the rendering pipelines in the Unity Engine 5, the Unreal Engine 4 and a basic OpenGL renderer. The pipelines are compared with the example of deferred shading and also other concepts like ray tracing are briefly addressed.</p>
-
-<p>The full PDF document can be found <a href="https://wp.uni-koblenz.de/fschroeder/wp-content/uploads/sites/29/2017/07/SW_Pipelines.pdf" target="_blank">here</a> (in german language).</p>
-
-<p></p>
-</details></p>
-</p>
+    
 
     
       
     
 
     
-
     
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+    
+  
+  
+  <div>
+    <a href="https://f-schroeder.github.io/publication/bachelorthesis/">
+      
+      
+        <img src="/img/ba_thesis.jpg" class="article-banner" itemprop="image">
+      
+    </a>
+  </div>
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="https://f-schroeder.github.io/publication/bachelorthesis/" itemprop="url">Global Illumination using GPU Path Tracing and the Line Space datastructure</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    This thesis presents a novel technique in computer graphics to simulate realtime global illumination using path tracing. Path tracing is done with compute shaders on the graphics card (GPU) to perform rendering in a highly parallelized manner. To improve the overall performance of tracing rays, the Line Space is used as an acceleration data structure in different variations, resulting in better empty space skipping. <br> This work received the <em>first price of the CV-Award 2017</em> at the University of Koblenz.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    Felix Schröder
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    Bachelor Thesis,
+    
+    2017
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://f-schroeder.github.io/project/linespace/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1438" target="_blank" rel="noopener">
+  Full PDF
+</a>
+
+
+  </div>
+
+</div>
+
+      
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="https://f-schroeder.github.io/publication/renderpipelines/" itemprop="url">Comparison of Rendering Pipelines</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    This seminar work presents a brief comparison of the rendering pipelines in the Unity Engine 5, the Unreal Engine 4 and a basic OpenGL renderer. The pipelines are compared with the example of deferred shading and also other concepts like ray tracing are briefly addressed.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    Felix Schröder
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    Seminar Work,
+    
+    2016
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://wp.uni-koblenz.de/fschroeder/wp-content/uploads/sites/29/2017/07/SW_Pipelines.pdf" target="_blank" rel="noopener">
+  Full PDF
+</a>
+
+
+  </div>
+
+</div>
+
+      
     
 
   </div>
@@ -677,7 +794,7 @@ Take a look at the <a href="https://www.facebook.com/followcvark/videos/59381918
 
 <p>The main topic of my work is computer graphics. I am especially focused on developing new photorealistic and real-time rendering techniques.</p>
 
-<p>I am supporting Prof. Dr. Müller at the University of Koblenz with his research on the Line Space datastructure for fast and efficient GPU ray tracing.
+<p>As a student assistant I am supporting Prof. Dr. Müller and Kevin Keul at the University of Koblenz with their research on the Line Space datastructure for fast and efficient GPU ray tracing.
 This also includes research in BVHs, two-level datastructures, recursive grids and octrees.</p>
 
 <p>Please also refer to my personal projects above and on <a href="https://github.com/f-schroeder" target="_blank">GitHub</a>.</p>
