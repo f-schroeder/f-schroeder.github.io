@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>BRDF</title>
+      <link>https://f-schroeder.github.io/tags/brdf/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/tags/brdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BVH</title>
       <link>https://f-schroeder.github.io/tags/bvh/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
@@ -33,7 +42,7 @@
     <item>
       <title>C&#43;&#43;</title>
       <link>https://f-schroeder.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Tue, 30 Jan 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0100</pubDate>
       
       <guid>https://f-schroeder.github.io/tags/c&#43;&#43;/</guid>
       <description></description>
@@ -51,7 +60,7 @@
     <item>
       <title>Graphics</title>
       <link>https://f-schroeder.github.io/tags/graphics/</link>
-      <pubDate>Tue, 30 Jan 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0100</pubDate>
       
       <guid>https://f-schroeder.github.io/tags/graphics/</guid>
       <description></description>
@@ -78,7 +87,7 @@
     <item>
       <title>OpenGL</title>
       <link>https://f-schroeder.github.io/tags/opengl/</link>
-      <pubDate>Tue, 30 Jan 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0100</pubDate>
       
       <guid>https://f-schroeder.github.io/tags/opengl/</guid>
       <description></description>
@@ -96,7 +105,7 @@
     <item>
       <title>Research</title>
       <link>https://f-schroeder.github.io/tags/research/</link>
-      <pubDate>Tue, 30 Jan 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0100</pubDate>
       
       <guid>https://f-schroeder.github.io/tags/research/</guid>
       <description></description>
@@ -126,6 +135,15 @@
       <pubDate>Fri, 26 Jan 2018 00:00:00 +0100</pubDate>
       
       <guid>https://f-schroeder.github.io/tags/unreal-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision</title>
+      <link>https://f-schroeder.github.io/tags/vision/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://f-schroeder.github.io/tags/vision/</guid>
       <description></description>
     </item>
     
