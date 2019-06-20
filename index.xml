@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Construction of a gonioreflectometer to capture and render BRDFs</title>
+      <link>https://f-schroeder.github.io/publication/masterthesis/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://f-schroeder.github.io/publication/masterthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Master Thesis</title>
       <link>https://f-schroeder.github.io/project/gonio/</link>
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0100</pubDate>
